@@ -10,7 +10,7 @@ public class MultiDimensionalMatrix{
 		System.out.println("====================");
         for (int row = 0; row < 3; row++){
             for (int col = 0; col < 5; col++){
-                System.out.printf("%-6d", numbers[row][col]);
+                System.out.printf("%-4d", numbers[row][col]);
             }
             System.out.println();
         }
